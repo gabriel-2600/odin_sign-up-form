@@ -7,5 +7,5 @@ https://www.vecteezy.com/vector-art/42231322-streetwear-y2k-aesthetic-symbol-ele
 casual-closet
 https://casual-closet.com/the-best-variants-of-the-north-face-nuptse-in-2023/
 
-Playfair Display, Google Fonts
-https://fonts.google.com/specimen/Playfair+Display
+Google Fonts
+https://fonts.google.com/

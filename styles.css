@@ -1,5 +1,6 @@
 /* Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* CSS Reset */
 *,
@@ -58,17 +59,18 @@ h6 {
 
 body {
   height: 100vh;
+  display: flex;
 }
 
 .image-container {
   background-image: url(assets/tnf.jpg);
   height: 100%;
   background-repeat: no-repeat;
-  width: 650px;
+  width: 37%;
 }
 
 .heading {
-  background-color: #242424ae;
+  background-color: #0e1829bd;
   position: relative;
   top: 100px;
   padding-bottom: 10px;
@@ -76,9 +78,75 @@ body {
 
 h1 {
   font-family: "Playfair Display", "Times New Roman", Times, serif;
-  font-size: 6rem;
+  font-size: 4.5rem;
   font-weight: 600;
   font-style: italic;
-  color: antiquewhite;
+  color: #e7e7e7;
   text-align: center;
+}
+
+.content-container {
+  font-family: "Raleway", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 63%;
+  color: #e7e7e7;
+  background-color: #0e1829f0;
+  padding: 80px 0;
+}
+
+h2 {
+  color: white;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.content-container > h2 {
+  padding: 50px;
+}
+
+.form-div {
+  box-shadow: 1px 10px 28px -3px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 1px 10px 28px -3px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 1px 10px 28px -3px rgba(0, 0, 0, 0.63);
+
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: #182b4b;
+
+  padding: 20px 50px;
+}
+
+.form-div h2 {
+  margin-bottom: 15px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-div {
+  display: flex;
+  gap: 80px;
+}
+
+.input-div p {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  width: 300px;
+  margin-bottom: 50px;
+  border: 0;
+  border-bottom: 1px solid white;
+  background-color: #182b4b;
+
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 5px;
+}
+
+input:invalid label::before {
+  content: "*";
 }
