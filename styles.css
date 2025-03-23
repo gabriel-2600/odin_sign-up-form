@@ -90,7 +90,7 @@ h1 {
   width: 63%;
   color: #e7e7e7;
   background-color: #0e1829f0;
-  padding: 80px 0;
+  /* padding: 80px 0; */
 }
 
 h2 {
@@ -112,7 +112,7 @@ h2 {
   border-bottom: 1px solid #e7e7e7;
   background-color: #182b4b;
 
-  padding: 20px 50px;
+  padding: 15px 50px;
 }
 
 .form-div h2 {
@@ -129,6 +129,7 @@ h2 {
 .input-section {
   display: flex;
   flex-direction: column;
+  gap: 40px;
 }
 
 .input-div {
@@ -143,7 +144,6 @@ h2 {
 
 form input {
   width: 350px;
-  margin-bottom: 50px;
   border: 0;
   border-bottom: 1px solid white;
   background-color: #182b4b;
@@ -160,7 +160,7 @@ input + span {
 
 .password-warning {
   position: relative;
-  top: -50px;
+  top: 3px;
   font-size: 0.9rem;
   font-weight: 800;
   color: white;
@@ -169,7 +169,7 @@ input + span {
 input:required + span::before {
   content: "*";
   position: absolute;
-  top: -112px;
+  top: -60px;
   right: 0;
 
   color: white;
