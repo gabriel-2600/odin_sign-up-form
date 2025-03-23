@@ -1,0 +1,84 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+body {
+  height: 100vh;
+}
+
+.image-container {
+  background-image: url(assets/tnf.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  width: 650px;
+}
+
+.heading {
+  background-color: #242424ae;
+  position: relative;
+  top: 100px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
+  font-size: 6rem;
+  font-weight: 600;
+  font-style: italic;
+  color: antiquewhite;
+  text-align: center;
+}
