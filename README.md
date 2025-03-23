@@ -20,7 +20,8 @@ Lessons Learned:
 - Learned how to create web forms using HTML forms elements
 - Used various pseudo-classes and pseudo-elements to style the web form
 
-Credits (The images/icons and fonts used are owned by there rightful authors):
+Credits (The images/icons and fonts used are owned by there rightful authors).
+
 fatboy29basic, Vecteezy.com
 https://www.vecteezy.com/vector-art/42231322-streetwear-y2k-aesthetic-symbol-element-icon-asset-vector-design-set-clip-art-print-poster-banner-fashion-slogan-shirt-sticker-flyer
 
