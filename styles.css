@@ -1,4 +1,4 @@
-/* Google Font */
+/* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
@@ -57,11 +57,13 @@ h6 {
   text-wrap: balance;
 }
 
+/* CSS Styles */
 body {
   height: 100vh;
   display: flex;
 }
 
+/* Image Section */
 .image-container {
   background-image: url(assets/tnf.jpg);
   height: 100%;
@@ -70,20 +72,22 @@ body {
 }
 
 .heading {
-  background-color: #0e1829bd;
+  background-color: #0e1829b9;
   position: relative;
-  top: 100px;
+  top: 150px;
   padding-bottom: 10px;
 }
 
 h1 {
   font-family: "Playfair Display", "Times New Roman", Times, serif;
-  font-size: 4.5rem;
+  font-size: 5rem;
   font-weight: 600;
   font-style: italic;
   color: #e7e7e7;
   text-align: center;
 }
+
+/* Content and Form Section */
 
 .content-container {
   font-family: "Raleway", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -94,7 +98,7 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: #e7e7e7;
   font-weight: 400;
   font-size: 2rem;
 }
@@ -116,7 +120,13 @@ h2 {
 }
 
 .form-div h2 {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.required-warning {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  font-weight: 800;
 }
 
 .input-section {
@@ -126,7 +136,7 @@ h2 {
 
 .input-div {
   display: flex;
-  gap: 80px;
+  gap: 90px;
 }
 
 .input-div p {
@@ -147,6 +157,54 @@ form input {
   padding: 5px;
 }
 
-input:invalid label::before {
+input + span {
+  position: relative;
+}
+
+input:required + span::before {
   content: "*";
+  position: absolute;
+  top: -112px;
+  right: 0;
+
+  color: white;
+  font-weight: 900;
+}
+
+form button {
+  margin-left: 50px;
+  margin-top: 40px;
+  padding: 10px 40px;
+
+  border: 1px solid #e7e7e7;
+  background-color: #182b4b;
+  color: white;
+
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #e7e7e7;
+  color: #182b4b;
+  transition: 0.3s;
+}
+
+.login {
+  margin-left: 50px;
+  margin-top: 40px;
+  font-weight: 500;
+}
+
+.login a {
+  text-decoration: none;
+  font-weight: 800;
+
+  color: white;
+}
+
+.login a:hover {
+  border-bottom: 2px solid #e7e7e7;
 }
