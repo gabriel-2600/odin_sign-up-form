@@ -1,6 +1,6 @@
 # Sign-up form
 
-Static web form made for the The Odin Project Project: Sign-up Form solutions
+Static web form made for the The Odin Project: Sign-up Form solutions
 
 Live Preview: https://gabriel-2600.github.io/odin_sign-up-form/
 
